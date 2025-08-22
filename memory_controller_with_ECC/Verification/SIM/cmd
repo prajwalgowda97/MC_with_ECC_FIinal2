@@ -1,0 +1,15 @@
+xrun -access +rwc -f compile_list.f -coverage all -covdut zmc_axi4_top -covworkdir ./cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1002 +UVM_TESTNAME=mc_reset_test
+xrun -access +rwc -f compile_list.f -coverage all -covdut zmc_axi4_top -covworkdir ./cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1003 +UVM_TESTNAME=mc_soft_reset_test
+xrun -access +rwc -f compile_list.f -coverage all -covdut zmc_axi4_top -covworkdir ./cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1004 +UVM_TESTNAME=mc_mem_initial_test
+xrun -access +rwc -f compile_list.f -coverage all -covdut zmc_axi4_top -covworkdir ./cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1005 +UVM_TESTNAME=mc_ecc_disable_test
+xrun -access +rwc -f compile_list.f -coverage all -covdut zmc_axi4_top -covworkdir ./cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1006 +UVM_TESTNAME=mc_ecc_enable_test
+xrun -access +rwc -f compile_list.f -coverage all -covdut zmc_axi4_top -covworkdir ./cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1007 +UVM_TESTNAME=mc_random_wr_test
+xrun -access +rwc -f compile_list.f -coverage all -covdut zmc_axi4_top -covworkdir ./cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1008 +UVM_TESTNAME=mc_random_wr_rd_test
+xrun -access +rwc -f compile_list.f -coverage all -covdut zmc_axi4_top -covworkdir ./cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1009 +UVM_TESTNAME=mc_fixed_burst_test
+xrun -access +rwc -f compile_list.f -coverage all -covdut zmc_axi4_top -covworkdir ./cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1010 +UVM_TESTNAME=mc_increment_burst_test
+xrun -access +rwc -f compile_list.f -coverage all -covdut zmc_axi4_top -covworkdir ./cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1011 +UVM_TESTNAME=mc_wrap_burst_test
+xrun -access +rwc -f compile_list.f -coverage all -covdut zmc_axi4_top -covworkdir ./cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1012 +UVM_TESTNAME=mc_parity_generator_test
+xrun -access +rwc -f compile_list.f -coverage all -covdut zmc_axi4_top -covworkdir ./cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1013 +UVM_TESTNAME=mc_single_bit_error_injection_test
+xrun -access +rwc -f compile_list.f -coverage all -covdut zmc_axi4_top -covworkdir ./cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1014 +UVM_TESTNAME=mc_double_bit_error_injection_test
+xrun -access +rwc -f compile_list.f -coverage all -covdut zmc_axi4_top -covworkdir ./cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1015 +UVM_TESTNAME=mc_interrupt_enable_test 
+xrun -access +rwc -f compile_list.f -coverage all -covdut zmc_axi4_top -covworkdir ./cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1016 +UVM_TESTNAME=mc_interrupt_disable_test

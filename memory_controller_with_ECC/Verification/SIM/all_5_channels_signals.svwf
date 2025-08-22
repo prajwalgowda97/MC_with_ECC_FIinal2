@@ -1,0 +1,185 @@
+
+#
+# Mnemonic Maps
+#
+mmap new  -reuse -name {Boolean as Logic} -radix %b -contents {{%c=FALSE -edgepriority 1 -shape low}
+{%c=TRUE -edgepriority 1 -shape high}}
+mmap new  -reuse -name {Example Map} -radix %x -contents {{%b=11???? -bgcolor orange -label REG:%x -linecolor yellow -shape bus}
+{%x=1F -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=2C -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=* -label %x -linecolor gray -shape bus}}
+
+array unset createdGroup
+array set createdGroup {}
+#
+# Groups
+#
+if {[catch {group get -using [list Group 1]}]} {
+set createdGroup([list Group 1]) 1
+catch {group new -name {Group 1} -overlay 0}
+}
+if {[catch {group get -using [list Global signals]}]} {
+set createdGroup([list Global signals]) 1
+catch {group new -name {Global signals} -overlay 0}
+}
+if {[catch {group get -using [list MEM initialization]}]} {
+set createdGroup([list MEM initialization]) 1
+catch {group new -name {MEM initialization} -overlay 0}
+}
+if {[catch {group get -using [list Group 4]}]} {
+set createdGroup([list Group 4]) 1
+catch {group new -name {Group 4} -overlay 0}
+}
+if {[catch {group get -using [list AW Channel]}]} {
+set createdGroup([list AW Channel]) 1
+catch {group new -name {AW Channel} -overlay 0}
+}
+if {[catch {group get -using [list W Channel]}]} {
+set createdGroup([list W Channel]) 1
+catch {group new -name {W Channel} -overlay 0}
+}
+if {[catch {group get -using [list AR Channel]}]} {
+set createdGroup([list AR Channel]) 1
+catch {group new -name {AR Channel} -overlay 0}
+}
+if {[catch {group get -using [list R Channel]}]} {
+set createdGroup([list R Channel]) 1
+catch {group new -name {R Channel} -overlay 0}
+}
+if {[catch {group get -using [list B Channel]}]} {
+set createdGroup([list B Channel]) 1
+catch {group new -name {B Channel} -overlay 0}
+}
+if {[info exists createdGroup([list Group 1])]} {
+group using {Group 1}
+group set -overlay 0
+group set -comment {}
+group clear 0 end
+
+}
+
+if {[info exists createdGroup([list Global signals])]} {
+group using {Global signals}
+group set -overlay 0
+group set -comment {}
+group clear 0 end
+group insert \
+    [subst  {[format {mc_top.dut.zmc_top_clk}]} ] \
+    [subst  {[format {mc_top.dut.zmc_top_rstn}]} ] \
+    [subst  {[format {mc_top.dut.zmc_top_sw_rst}]} ]
+}
+
+if {[info exists createdGroup([list MEM initialization])]} {
+group using {MEM initialization}
+group set -overlay 0
+group set -comment {}
+group clear 0 end
+group insert \
+    [subst  {[format {mc_top.dut.zmc_top_mem_init}]} ] \
+    [subst  {[format {mc_top.dut.MEM_init_ACK}]} ]
+}
+
+if {[info exists createdGroup([list Group 4])]} {
+group using {Group 4}
+group set -overlay 0
+group set -comment {}
+group clear 0 end
+
+}
+
+if {[info exists createdGroup([list AW Channel])]} {
+group using {AW Channel}
+group set -overlay 0
+group set -comment {}
+group clear 0 end
+group insert \
+    [subst  {[format {mc_top.dut.awvalid}]} ] \
+    [subst  {[format {mc_top.dut.awready}]} ] \
+    [subst  {[format {mc_top.dut.awaddr[31:0]}]} ] \
+    [subst  {[format {mc_top.dut.awlen[3:0]}]} ] \
+    [subst  {[format {mc_top.dut.awburst[1:0]}]} ] \
+    {### cdivider} \
+    {W Channel} \
+    {### cdivider} \
+    {B Channel} \
+    {### cdivider} \
+    {AR Channel}
+}
+
+if {[info exists createdGroup([list W Channel])]} {
+group using {W Channel}
+group set -overlay 0
+group set -comment {}
+group clear 0 end
+group insert \
+    [subst  {[format {mc_top.dut.wvalid}]} ] \
+    [subst  {[format {mc_top.dut.wready}]} ] \
+    [subst  {[format {mc_top.dut.wdata[31:0]}]} ] \
+    [subst  {[format {mc_top.dut.wlast}]} ] \
+    [subst  {[format {mc_top.dut.wstrb[3:0]}]} ]
+}
+
+if {[info exists createdGroup([list AR Channel])]} {
+group using {AR Channel}
+group set -overlay 0
+group set -comment {}
+group clear 0 end
+group insert \
+    [subst  {[format {mc_top.dut.araddr[31:0]}]} ] \
+    [subst  {[format {mc_top.dut.arlen[3:0]}]} ] \
+    [subst  {[format {mc_top.dut.arburst[1:0]}]} ] \
+    [subst  {[format {mc_top.dut.arready}]} ] \
+    [subst  {[format {mc_top.dut.arvalid}]} ] \
+    {### cdivider} \
+    {R Channel}
+}
+
+if {[info exists createdGroup([list R Channel])]} {
+group using {R Channel}
+group set -overlay 0
+group set -comment {}
+group clear 0 end
+group insert \
+    [subst  {[format {mc_top.dut.rdata[31:0]}]} ] \
+    [subst  {[format {mc_top.dut.rlast}]} ] \
+    [subst  {[format {mc_top.dut.rready}]} ] \
+    [subst  {[format {mc_top.dut.rresp[1:0]}]} ] \
+    [subst  {[format {mc_top.dut.rvalid}]} ]
+}
+
+if {[info exists createdGroup([list B Channel])]} {
+group using {B Channel}
+group set -overlay 0
+group set -comment {}
+group clear 0 end
+group insert \
+    [subst  {[format {mc_top.dut.bvalid}]} ] \
+    [subst  {[format {mc_top.dut.bresp[1:0]}]} ] \
+    [subst  {[format {mc_top.dut.bready}]} ]
+}
+
+
+set groupId0 [waveform add -groups {{Global signals}}]
+
+set id [waveform add -cdivider divider]
+
+set groupId0 [waveform add -groups {{MEM initialization}}]
+
+set id [waveform add -cdivider divider]
+
+set groupId0 [waveform add -groups {{AW Channel}}]
+
+set groupId1 [waveform find -name {W Channel}]
+
+
+set groupId1 [waveform find -name {B Channel}]
+
+
+set groupId1 [waveform find -name {AR Channel}]
+
+set groupId2 [waveform find -name {R Channel}]
+
+
+
+
+waveform xview limits 0 1949ns

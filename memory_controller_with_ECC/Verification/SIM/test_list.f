@@ -1,0 +1,15 @@
+mc_reset_test  2
+mc_soft_reset_test  2
+mc_mem_initial_test  2
+mc_ecc_disable_test  2
+mc_ecc_enable_test  2
+mc_random_wr_test  2
+mc_random_wr_rd_test  2
+mc_fixed_burst_test  2
+mc_increment_burst_test  2
+mc_wrap_burst_test  2
+mc_parity_generator_test  2
+mc_single_bit_error_injection_test  2
+mc_double_bit_error_injection_test  2
+mc_interrupt_enable_test  2
+mc_interrupt_disable_test  2

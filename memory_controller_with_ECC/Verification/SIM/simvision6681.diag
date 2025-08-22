@@ -1,0 +1,1230 @@
+*** Message Type: info ***
+When: Mon Aug 11 12:11:20 PM IST 2025
+SimVision started.
+Version: TOOL:  simvision(64)   20.09-s009
+User: sgeuser33
+Host: compute-srv3.eda.atme.in
+Platform: Linux/x86_64/3.10.0-1160.118.1.el7.x86_64
+Started: Mon Aug 11 12:11:20 PM IST 2025
+Command: /tools/cadence_march2021/XCELIUM2009/tools.lnx86/simvision/bin/64bit/simvision.exe wave.shm
+Work Directory: /home/sgeuser33/Prajwal/memory_controller_with_ECC/Verification/SIM
+ 
+*** Message Type: info ***
+When: Mon Aug 11 12:11:20 PM IST 2025
+Create waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Mon Aug 11 12:11:25 PM IST 2025
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Mon Aug 11 12:11:26 PM IST 2025
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Mon Aug 11 02:24:55 PM IST 2025
+Create source window: "Source Browser 1"
+ 
+*** Message Type: info ***
+When: Mon Aug 11 02:25:00 PM IST 2025
+Delete source window: "Source Browser 1"
+ 
+*** Message Type: error ***
+When: Thu Aug 21 03:32:06 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"pwd"
+    (object "::application" method "::Application::auto-save" body line 11)
+    invoked from within
+"::application auto-save"
+    (in namespace inscope "::Application" script line 1)
+    invoked from within
+"namespace inscope ::Application {::application auto-save}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Thu Aug 21 03:32:06 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"pwd"
+    (object "::application" method "::Application::auto-save" body line 11)
+    invoked from within
+"::application auto-save"
+    (in namespace inscope "::Application" script line 1)
+    invoked from within
+"namespace inscope ::Application {::application auto-save}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Thu Aug 21 03:32:06 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"pwd"
+    (object "::application" method "::Application::auto-save" body line 11)
+    invoked from within
+"::application auto-save"
+    (in namespace inscope "::Application" script line 1)
+    invoked from within
+"namespace inscope ::Application {::application auto-save}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 11:49:15 AM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 35 467"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 35 467}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 11:49:15 AM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 102 361"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 102 361}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 11:49:17 AM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $item"
+    (object "::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree" method "::dad::ScopeTree::_enterleavecb" body line 28)
+    invoked from within
+"::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree _enterleavecb enter 55 211"
+    (in namespace inscope "::dad::ScopeTree" script line 1)
+    invoked from within
+"namespace inscope ::dad::ScopeTree {::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree _enterleavecb enter 55 211}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 11:49:19 AM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $item"
+    (object "::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree" method "::dad::ScopeTree::_enterleavecb" body line 28)
+    invoked from within
+"::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree _enterleavecb enter 55 211"
+    (in namespace inscope "::dad::ScopeTree" script line 1)
+    invoked from within
+"namespace inscope ::dad::ScopeTree {::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree _enterleavecb enter 55 211}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 11:49:20 AM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"source ./scripts/layout/LayoutStyleCustom.tbc"
+    (in namespace eval "::" script line 1)
+    invoked from within
+"namespace eval :: $auto_index($name)"
+    (procedure "::auto_load" line 13)
+    invoked from within
+"::auto_load LayoutStyleCustom"
+    (while attempting to autoload class "LayoutStyleCustom")
+    invoked from within
+"itcl::find objects -class LayoutStyleCustom"
+    (procedure "LAYOUT::purgeDeletedCustomLayouts" line 4)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "::cleanupforexit" line 1)
+    invoked from within
+"::cleanupforexit"
+    (object "::application" method "::Application::shutdown" body line 90)
+    invoked from within
+"application shutdown"
+    (while executing background task for duty "shutdown" in owner exit)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 11:49:22 AM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 70 23"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 70 23}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 12:25:06 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $h2"
+    (object "::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.contents.list.lf.list" method "::dad::ObjectList::_enterleavecb" body line 48)
+    invoked from within
+"::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.contents.list.lf.list _enterleavecb enter 103 129"
+    (in namespace inscope "::dad::ObjectList" script line 1)
+    invoked from within
+"namespace inscope ::dad::ObjectList {::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.contents.list.lf.list _enterleavecb enter 103 129}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 12:25:06 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $h2"
+    (object "::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.contents.list.lf.list" method "::dad::ObjectList::_enterleavecb" body line 48)
+    invoked from within
+"::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.contents.list.lf.list _enterleavecb enter 79 62"
+    (in namespace inscope "::dad::ObjectList" script line 1)
+    invoked from within
+"namespace inscope ::dad::ObjectList {::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.contents.list.lf.list _enterleavecb enter 79 62}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 12:25:06 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $item"
+    (object "::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree" method "::dad::ScopeTree::_enterleavecb" body line 28)
+    invoked from within
+"::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree _enterleavecb enter 24 210"
+    (in namespace inscope "::dad::ScopeTree" script line 1)
+    invoked from within
+"namespace inscope ::dad::ScopeTree {::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree _enterleavecb enter 24 210}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 12:25:06 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $item"
+    (object "::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree" method "::dad::ScopeTree::_enterleavecb" body line 28)
+    invoked from within
+"::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree _enterleavecb enter 8 133"
+    (in namespace inscope "::dad::ScopeTree" script line 1)
+    invoked from within
+"namespace inscope ::dad::ScopeTree {::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree _enterleavecb enter 8 133}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 12:25:09 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $item"
+    (object "::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree" method "::dad::ScopeTree::_enterleavecb" body line 28)
+    invoked from within
+"::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree _enterleavecb enter 68 5"
+    (in namespace inscope "::dad::ScopeTree" script line 1)
+    invoked from within
+"namespace inscope ::dad::ScopeTree {::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree _enterleavecb enter 68 5}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 12:25:30 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 0 0"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 0 0}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 12:25:30 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 0 0"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 0 0}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 12:25:30 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 0 0"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 0 0}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 12:25:30 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 0 0"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 0 0}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 12:25:30 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 0 0"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 0 0}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 12:25:33 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 0 0"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 0 0}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 12:25:33 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 0 0"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 0 0}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 12:25:33 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 0 0"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 0 0}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 12:25:33 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 0 0"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 0 0}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 12:25:33 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 0 0"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 0 0}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 12:25:47 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $item"
+    (object "::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree" method "::dad::ScopeTree::_enterleavecb" body line 28)
+    invoked from within
+"::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree _enterleavecb enter 47 196"
+    (in namespace inscope "::dad::ScopeTree" script line 1)
+    invoked from within
+"namespace inscope ::dad::ScopeTree {::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree _enterleavecb enter 47 196}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 12:25:49 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $item"
+    (object "::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree" method "::dad::ScopeTree::_enterleavecb" body line 28)
+    invoked from within
+"::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree _enterleavecb enter 79 180"
+    (in namespace inscope "::dad::ScopeTree" script line 1)
+    invoked from within
+"namespace inscope ::dad::ScopeTree {::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree _enterleavecb enter 79 180}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 12:25:49 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $item"
+    (object "::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree" method "::dad::ScopeTree::_enterleavecb" body line 28)
+    invoked from within
+"::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree _enterleavecb enter 129 151"
+    (in namespace inscope "::dad::ScopeTree" script line 1)
+    invoked from within
+"namespace inscope ::dad::ScopeTree {::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree _enterleavecb enter 129 151}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 12:25:49 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $item"
+    (object "::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree" method "::dad::ScopeTree::_enterleavecb" body line 28)
+    invoked from within
+"::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree _enterleavecb enter 165 131"
+    (in namespace inscope "::dad::ScopeTree" script line 1)
+    invoked from within
+"namespace inscope ::dad::ScopeTree {::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree _enterleavecb enter 165 131}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 12:25:49 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $item"
+    (object "::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree" method "::dad::ScopeTree::_enterleavecb" body line 28)
+    invoked from within
+"::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree _enterleavecb enter 200 113"
+    (in namespace inscope "::dad::ScopeTree" script line 1)
+    invoked from within
+"namespace inscope ::dad::ScopeTree {::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree _enterleavecb enter 200 113}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 12:25:52 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $item"
+    (object "::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree" method "::dad::ScopeTree::_enterleavecb" body line 28)
+    invoked from within
+"::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree _enterleavecb enter 233 95"
+    (in namespace inscope "::dad::ScopeTree" script line 1)
+    invoked from within
+"namespace inscope ::dad::ScopeTree {::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree _enterleavecb enter 233 95}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 12:25:52 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $item"
+    (object "::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree" method "::dad::ScopeTree::_enterleavecb" body line 28)
+    invoked from within
+"::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree _enterleavecb enter 278 79"
+    (in namespace inscope "::dad::ScopeTree" script line 1)
+    invoked from within
+"namespace inscope ::dad::ScopeTree {::.waveWindow0.work.sidebars.csite.tabs.tab1.browse.tree _enterleavecb enter 278 79}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 05:31:37 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 16 391"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 16 391}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 05:31:37 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 87 340"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 87 340}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 05:31:37 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 164 298"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 164 298}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 05:31:37 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 0 0"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 0 0}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 05:31:37 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 0 0"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 0 0}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 05:31:40 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 0 0"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 0 0}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 05:31:40 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 0 0"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 0 0}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 05:31:40 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 0 0"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 0 0}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 05:31:40 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 0 0"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 0 0}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 05:31:40 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 0 0"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 0 0}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 05:31:43 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 0 0"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 0 0}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 05:31:43 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 0 0"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 0 0}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 05:31:43 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 0 0"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 0 0}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 05:31:46 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 172 52"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 172 52}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 05:31:47 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 156 56"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 156 56}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 05:31:49 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 172 39"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 172 39}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 05:31:51 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 145 33"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 145 33}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 05:31:54 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 120 75"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 120 75}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 05:31:56 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 139 43"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 139 43}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 05:31:56 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 156 31"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 156 31}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 05:32:00 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 999 35"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 999 35}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 05:32:38 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 165 276"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 165 276}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 05:32:38 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 133 257"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 133 257}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 05:32:38 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 116 239"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 116 239}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 05:32:38 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 108 213"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 108 213}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 05:32:38 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 102 199"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 102 199}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Fri Aug 22 05:32:41 PM IST 2025
+error getting working directory name: no such file or directory
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "stripPwd" line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::getrelpath" line 1)
+    invoked from within
+"util::getrelpath $dacH"
+    (object "::.waveWindow0" method "::WaveWindow::_onOverSignal" body line 29)
+    invoked from within
+"::.waveWindow0 _onOverSignal 172 142"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _onOverSignal 172 142}"
+    (command bound to event)
+ 
